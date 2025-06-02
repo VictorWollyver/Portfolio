@@ -1,4 +1,5 @@
- import "./globals.css";
+import type { Metadata } from "next";
+import "./globals.css";
 import { Literata, Poppins } from "next/font/google";
 
 const literata = Literata({
@@ -14,6 +15,11 @@ const poppins = Poppins({
 	style: ["normal"],
 	variable: "--font-poppins",
 });
+
+export const metadata: Metadata = {
+	title: "Victor Wollyver - Portfolio",
+	description: "Portfolio do Victor Wollyver",
+};
 
 export default function RootLayout({
 	children,
