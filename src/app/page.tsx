@@ -39,8 +39,8 @@ export const metadata: Metadata = {
 		images: [
 			{
 				url: "/assets/OG-image.jpg",
-				width: 1200,
-				height: 630,
+				width: 1584,
+				height: 396,
 				alt: "Victor Wollyver - Portfolio",
 			},
 		],
